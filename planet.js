@@ -58,10 +58,9 @@ var earthGeo = new THREE.SphereGeometry( 400, 1800, 1800 ),
 earthMesh = new THREE.Mesh( earthGeo, earthMat );
 
 earthMesh.position.set( 0, 0, 0 );
-earthMesh.rotation.y = 0;https://drive.proton.me/urls/57BXZF53EM#ljj1uzzQY2QT
+earthMesh.rotation.y = 0;
 scene.add( earthMesh );
 
-https://drive.proton.me/urls/57BXZF53EM#ljj1uzzQY2QT
 //diffuse
 earthMat.map = new THREE.TextureLoader().load('lroc_color_poles_16k.jpeg');
 
