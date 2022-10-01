@@ -1,5 +1,6 @@
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
 
 ## Table of Contents
 
@@ -40,7 +41,7 @@ It converts lat & long to X,Y in the image of Xm,Ym, and returns a binary mask o
 
 ## Demo
 
-Explore the Web app: 
+Explore our Web app:  https://moon-quakers.github.io/MOON-QUAKE-PROJECT/
 
 
 ## Authors
@@ -71,23 +72,17 @@ the pds ](https://www.hou.usra.edu/meetings/lpsc2020/pdf/2269.pdf)
 
 ## 🛠 Tech Stack
 
-The client interface has been build using the following technologies:
-
 * HTML5
 * CSS3
 * Javascript 
 * JSthree
+* Jupyter Notebook
 
 
 
 ## Run Locally
 
 Just download this reposiory and run our index.html
-## Graph data
-
-![Shallow_moonquake](https://raw.githubusercontent.com/MOON-QUAKERS/MOON-QUAKE-PROJECT/main/Shallow_moonquake.png)
-
-
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
@@ -96,4 +91,4 @@ Just download this reposiory and run our index.html
 
 
 ## Tags
-“ #Socio-economic impact, #Environmental impact, #COVID-19, #European countries, #cross-Industry view, #EU, #Holistic View, #Industry Impact, #NASA earth observation data, #An integrated assessment ”
+“ #3Dmaps, #divulgation ”
