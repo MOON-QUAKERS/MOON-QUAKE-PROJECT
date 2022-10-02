@@ -45,6 +45,7 @@ It converts lat & long to X,Y in the image of Xm,Ym, and returns a binary mask o
 
 Explore our Web app:  https://moon-quakers.github.io/MOON-QUAKE-PROJECT/
 
+![Demo](https://github.com/MOON-QUAKERS/MOON-QUAKE-PROJECT/blob/main/simplescreenrecorder-2022-10-02_14.51.21.gif)
 
 ## Authors
 
@@ -52,8 +53,8 @@ Explore our Web app:  https://moon-quakers.github.io/MOON-QUAKE-PROJECT/
 - [@Hector Navarro Barboza](https://github.com/hectornav)
 - [@Magnus1990P](https://github.com/Magnus1990P)
 - [@Oscar Perez](https://github.com/kemeriano)
-  [@Rodrigo Brugué](https://github.com/anumerico)
-  [@Alexey](https://github.com/AlexeyUAB)
+- [@Rodrigo Brugué](https://github.com/anumerico)
+- [@Alexey](https://github.com/AlexeyUAB)
 
 
 
