@@ -1,4 +1,4 @@
-import { APOLLO_SITES, NAKAMURA_1979_SM, NAKAMURA_1983_AI } from './data.js'
+import { APOLLO_SITES, NAKAMURA_1979_SM, NAKAMURA_1983_AI, NAKAMURA_2005_DM } from './data.js'
 var container, controls, camera, renderer, scene, pinLight,
 rotationSpeed = 0.01,
 clock = new THREE.Clock(),
@@ -59,25 +59,28 @@ function createLine(site,color) {
     return new THREE.Line( geometry2, material2 );
 }
 
-let lines = [];
+var group = new THREE.Group();
 for (let i = 0 ; i< APOLLO_SITES.length; i++){
     let site = APOLLO_SITES[i];
     const line = createLine(site,0x0000ff);
-    lines.push( line );
-    scene.add( line );
+    group.add( line );
 }
 for (let i = 0 ; i< NAKAMURA_1979_SM.length; i++){
     let site = NAKAMURA_1979_SM[i];
-    const line = createLine(site,0xff0000);
-    lines.push( line );
-    scene.add( line );
+    const line = createLine(site,0xffff00);
+    group.add( line );
 }
 for (let i = 0 ; i< NAKAMURA_1983_AI.length; i++){
     let site = NAKAMURA_1983_AI[i];
     const line = createLine(site,0x00ff00);
-    lines.push( line );
-    scene.add( line );
+    group.add( line );
 }
+for (let i = 0 ; i< NAKAMURA_2005_DM.length; i++){
+    let site = NAKAMURA_2005_DM[i];
+    const line = createLine(site,0xff0000);
+    group.add( line );
+}
+scene.add( group );
 
 //EARTH
 
@@ -123,7 +126,7 @@ function animate() {
 function render(){
     var delta = clock.getDelta();
     earthMesh.rotation.y += rotationSpeed * delta;
-    lines.forEach((line) => line.rotation.y += rotationSpeed * delta);
+    group.rotation.y += rotationSpeed * delta;
     renderer.clear();
     renderer.render(scene, camera); 
 }
