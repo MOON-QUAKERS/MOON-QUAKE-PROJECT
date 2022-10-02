@@ -97,7 +97,7 @@ earthMat.map = new THREE.TextureLoader().load('lroc_color_poles_8k.jpg');
 
 //displacement
 earthMat.displacementMap = new THREE.TextureLoader().load('ldem_64_uint_8k.jpeg');
-earthMat.displacementScale = 10;
+earthMat.displacementScale = 20;
 
 //bump
 earthMat.bumpMap = new THREE.TextureLoader().load('ldem_64_uint_8k.jpeg');
