@@ -52,6 +52,8 @@ Explore our Web app:  https://moon-quakers.github.io/MOON-QUAKE-PROJECT/
 - [@Hector Navarro Barboza](https://github.com/hectornav)
 - [@Magnus1990P](https://github.com/Magnus1990P)
 - [@Oscar Perez](https://github.com/kemeriano)
+  [@Rodrigo Brugué](https://github.com/anumerico)
+  [@Alexey](https://github.com/AlexeyUAB)
 
 
 
