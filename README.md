@@ -91,7 +91,12 @@ the pds ](https://www.hou.usra.edu/meetings/lpsc2020/pdf/2269.pdf)
 
 ## Run Locally
 
-Just download this reposiory and run our index.html
+To serve the web to localhost download this repository and run:
+
+npm install -g http-server
+
+http-server -c-1
+
 ## Acknowledgements
 
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
